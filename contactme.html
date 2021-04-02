@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h2>Contact Details</h2>
+    <hr size="5" noshade="" />
+    <ul>
+      <li><h3>Email</h3></li>
+      <ol>
+        <li>patilab18.meta@coep.ac.in</li>
+        <li>akshay6079@gmail.com</li>
+      </ol>
+      <li><h3>Mobile numbers</h3></li>
+      <ol>
+        <li>+919960010547</li>
+        <li>+917020058812</li>
+      </ol>
+    </ul>
+
+    <hr size="5" noshade="" />
+
+    <h2>Send me your Details</h2>
+    <form
+      action="mailTo:akshay6079@gmail.com"
+      enctype="text/plain"
+      method="POST"
+    >
+      <label for="">Your Name</label>
+      <input type="text" name="YourName" />
+
+      <br />
+
+      <label for="">Enter your mail</label>
+      <input type="email" name="Your Email" id="">
+      
+      <label for="">Date of birth</label>
+      <input type="date" name="Date of birth" id="" />
+      <br /><br />
+      <label for="">Your message</label>
+      <textarea name="Your Message " id="" cols="30" rows="10"></textarea>
+
+      <br /><br />
+
+      <br /><br />
+
+      <label for="">Have you read terms and conditions?</label>
+      <input type="checkbox" />
+
+      <br /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
